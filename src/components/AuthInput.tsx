@@ -11,7 +11,7 @@ const AuthInput = (props: AuthInputProps) => {
       <input
         type={props.isPassword ? "password" : "text"}
         onChange={(e) => props.newState(e.currentTarget.value)}
-        placeholder={"Digite seu " + props.label}
+        placeholder={"Digite " + props.label}
         className="border-gray-400 border-b w-full focus-visible:border-gray-700 focus-visible:boder-b focus-visible:outline-none"
       />
     </div>
